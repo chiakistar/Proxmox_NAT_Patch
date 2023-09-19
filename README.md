@@ -14,6 +14,7 @@ get installed pve-firewall version
 
 replace the Firewall.pm according to the version from the dir to /usr/share/perl5/PVE/Firewall.pm
 Alternative use the install.sh script
+
         curl https://raw.githubusercontent.com/chiakistar/Proxmox_NAT_Patch/master/install.sh -O /tmp/install.sh && bash /tmp/install.sh
 
 
