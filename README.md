@@ -14,6 +14,7 @@ get installed pve-firewall version
 
 replace the Firewall.pm according to the version from the dir to /usr/share/perl5/PVE/Firewall.pm
 Example
+
         VERSION=$(dpkg-query -W -f='${Version}\n' pve-firewall)
         curl -o /tmp/Firewall-pm -L https://github.com/chiakistar/Proxmox_NAT_Patch/raw/master/pve-firewall%20$VERSION/Firewall.pm
         cp /usr/share/perl5/PVE/Firewall.pm /usr/share/perl5/PVE/Firewall.pm.orig
